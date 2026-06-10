@@ -1,6 +1,12 @@
-import example.pepita
+import plagas.*
 
-describe "group of tests for pepita" {
+
+describe "probar tacar con las plagas a los elementos" {
+
+  method initialize(){
+    const plagaMosquito1 = new Mosquitos(poblacion = 15)
+    const hogar1 =  new ()
+  }
 
   test "pepita has initial energy" {
     assert.equals(100, pepita.energy())
